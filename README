@@ -1,0 +1,4 @@
+This application watches a list of websites for chances. Whenever a change is made to a particular website, it will alert the user with vibration and notifications.
+It is very easy to use and it includes possibilities to adjust the delay between polling for changes.
+
+NOTICE: The application may use a lot of battery power when active and the application is still in it's testing phase, and I provide no guarantee that it works on all Android devices, but please provide your feedback and experiences.

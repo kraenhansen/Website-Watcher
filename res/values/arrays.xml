@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="delay_labels">
+        <item>1 second</item>
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>½ hour</item>
+        <item>1 hour</item>
+        <item>5 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>1 week</item>
+    </string-array>
+    <integer-array name="delay_values">
+        <item>1</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>300</item>
+        <item>900</item>
+        <item>1800</item>
+        <item>3600</item>
+        <item>18000</item>
+        <item>43200</item>
+        <item>86400</item>
+        <item>172800</item>
+        <item>604800</item>
+    </integer-array>
+    
+</resources>

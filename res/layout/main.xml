@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/MainLayout" android:background="@drawable/background_drawable">
+<ListView android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_above="@+id/controlsLayout" android:id="@android:id/list" android:divider="#00000000" android:cacheColorHint="#00000000">
+    <!-- Preview: 
+        listfooter=@layout/website_item_new
+        listitem=@layout/website_item
+     -->
+</ListView>
+<LinearLayout android:orientation="vertical" android:id="@+id/controlsLayout" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_centerHorizontal="true">
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:drawableLeft="@drawable/connection_offline" android:id="@+id/changeServiceStateButton" android:text="@string/change_service_state_offline" android:onClick="changeServiceState" android:drawablePadding="5dp"></Button>
+</LinearLayout>
+</RelativeLayout>

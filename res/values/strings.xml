@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Website Watcher</string>
+    <string name="website_label">Website:</string>
+    <string name="unknown_website_url">(unknown)</string>
+    <string name="delay_label">Delay:</string>
+    <string name="last_refresh_label">Last refresh:</string>
+    <string name="status_label">Current status:</string>
+    <string name="status_button_unknown">Unknown status. Click to refresh</string>
+    <string name="status_button_changed">Website has Changed! Click to ignore</string>
+    <string name="status_button_unchanged">Nothing new. Click to refresh</string>
+    <string name="status_button_refreshing">Refreshing ...</string>
+    <string name="delay_spinner_prompt">Choose a delay</string>
+    <string name="error_malformed_url">The URL you have inputtet, could not be used as a valid URL.</string>
+    <string name="website_has_changed">A website has changed!</string>
+    <string name="change_service_state_offline">Offline .. click to activate</string>
+    <string name="change_service_state_online">Watching for changes!</string>
+    <string name="add_website_button">Click to add a website to this list</string>
+    <string name="delete_button">Delete</string>
+    <string name="visit_button">Visit website</string>
+</resources>

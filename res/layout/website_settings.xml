@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:padding="10dp">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/controlLayout">
+        <Button android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_toLeftOf="@+id/delete_button" android:id="@+id/visit_button" android:text="@string/visit_button" android:drawableLeft="@drawable/internet" android:onClick="visit"></Button>
+        <Button android:layout_alignBaseline="@+id/button2" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/delete_button" android:layout_alignParentRight="true" android:text="@string/delete_button" android:drawableLeft="@drawable/delete" android:onClick="delete"></Button>
+    </RelativeLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/website_label" android:id="@+id/url_label"></TextView>
+    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/url_value">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delay_label" android:id="@+id/delay_label"></TextView>
+    <Spinner android:layout_width="fill_parent" android:layout_height="wrap_content" android:entries="@array/delay_labels" android:id="@+id/delay_value" android:prompt="@string/delay_spinner_prompt"></Spinner>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/status_label" android:text="@string/status_label"></TextView>
+    <Button android:layout_width="wrap_content" android:id="@+id/status_button" android:onClick="statusButtonPressed" android:layout_height="wrap_content" android:drawableLeft="@drawable/website_state_unknown" android:layout_gravity="center" android:drawablePadding="5dp"></Button>
+    <TextView android:layout_width="wrap_content" android:id="@+id/last_refresh_label" android:text="@string/last_refresh_label" android:layout_height="wrap_content"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/last_refresh_value" android:text="..." android:layout_height="wrap_content"></TextView>
+    
+</LinearLayout>
